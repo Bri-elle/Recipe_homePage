@@ -1,0 +1,88 @@
+
+* {
+    box-sizing: border-box;
+      margin: 0;
+    padding: 0;
+    border: 0;
+  }
+  
+  html{
+    width:100%;
+    background-color: #F3DBB2;
+    
+  }
+  
+  body{
+    width:60%;
+    margin: 10% auto;
+   background-color: white;
+    padding: 30px;
+    border-radius:15px;
+    
+    
+  }
+  
+  img{
+    width: 100%;
+    border-radius:15px;
+    margin-bottom:20px;
+     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3), 0 0 0 10px rgba(255, 255, 255, 0.2) inset;
+  }
+  
+  
+  ul,ol{
+    list-style-position: inside;
+    
+    
+  }
+  /*
+  add box shadow that lifts the image off the page 
+  
+  ul{
+    list-style-image: url('');
+    
+  }
+  */
+  
+  section{
+    background-color:#FFDFE2;
+    padding: 20px 20px;
+    border-radius:10px;
+    margin-top: 20px;
+  }
+  
+  h2{
+    color: #A64B2A;
+    padding:20px 0;
+  }
+  section h3{
+    color:#910A67;
+     padding-bottom: 20px;
+    padding-top:0;
+  }
+  
+  
+  table{
+    border-collapse: collapse;
+    width:100%;
+  }
+  
+  td{
+    border-bottom: 1px solid #B2A59B;
+    padding:10px;
+  }
+  
+  
+  .colored{
+    color: #A64B2A;
+    font-weight: bold;
+  }
+  footer{
+    border: 0.5px dotted #FFDFE2 ;
+    width: fit-content;
+    padding: 5px;
+    margin:0 auto;
+    margin-top:10px;
+    font-size:10px;
+  
+  }
